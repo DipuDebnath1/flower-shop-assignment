@@ -157,3 +157,58 @@ h3>span{
     line-height: 30px;
     padding: 20px 0;
 }
+
+/* instragram part  */
+.ins-image{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+.ins-image>img{
+   width: 200px;
+   height: auto;
+
+}
+
+/* .latest-dels  */
+.latest-dels>.container{
+    background: url(images/rectangle9.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.latest-dels>.container h3{
+    color: #272727;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.latest-dels>.container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+   padding: 20px 0;
+}
+.inputs{
+    display: flex;
+    gap: 20px;
+}
+.inputs input{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    flex-shrink: 0;
+    font-size: 17px;
+ 
+}
